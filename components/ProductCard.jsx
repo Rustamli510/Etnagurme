@@ -1,16 +1,23 @@
-import Image from "next/image";
-
 export default function ProductCard({ product }) {
+  const imageClassNameById = {
+    "tavuk-cubuklari":
+      "h-full w-full pl-1 object-contain scale-305 transition-transform duration-300 group-hover:scale-[3.16]",
+    "baharatli-tavuk-cubuklari":
+      "h-full w-full pl-3 pt-1.5 object-contain scale-360 transition-transform duration-300 group-hover:scale-[3.7]",
+  };
+
+  const imageClassName =
+    imageClassNameById[product.id] ??
+    "h-full w-full object-contain transition-transform duration-300 scale-215 group-hover:scale-[2.2]";
+
   return (
     <article className="group flex flex-col items-center rounded-xl border border-neutral-200 bg-white p-6 text-center shadow-sm transition-shadow hover:shadow-xl hover:cursor-pointer">
       <div className="mb-4 w-full">
         <div className="relative mx-auto aspect-4/5 w-full max-w-[180px] overflow-hidden rounded-2xl bg-neutral-100 ring-1 ring-neutral-200">
-          <Image
+          <img
             src={product.imageSrc}
             alt={product.name}
-            fill
-            sizes="(min-width: 1024px) 180px, (min-width: 640px) 40vw, 60vw"
-            className="object-contain p-3 transition-transform duration-300 group-hover:scale-[1.03]"
+            className={imageClassName}
           />
         </div>
       </div>

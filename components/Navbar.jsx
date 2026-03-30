@@ -16,9 +16,9 @@ export default function Navbar() {
         <Link
           href="#hero"
           className="text-xl font-semibold tracking-[0.25em] uppercase"
-          aria-label="ETNA home"
+          aria-label="ETNAGURME"
         >
-          ETNA
+          ETNAGURME
         </Link>
         <ul className="flex items-center gap-6 text-sm md:gap-8">
           {navLinks.map((link) => (

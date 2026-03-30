@@ -2,35 +2,43 @@ import ProductCard from "./ProductCard";
 
 const products = [
   {
-    name: "ETNA OREGANO",
+    name: "Kurutulmuş Tavuk Eti",
     description: "Yoğun kekik notalarıyla dengelenmiş klasik kuru et tadı.",
     price: "₺180,00",
-    imageSrc: "/Baharatli.jpeg",
+    imageSrc: "/Kurutulmus_tavuk_eti.svg",
   },
   {
-    name: "ETNA BİBERLİ TERBİYE",
+    name: "Kurutulmuş Dana Eti",
+    description: "Yoğun kekik notalarıyla dengelenmiş klasik kuru et tadı.",
+    price: "₺180,00",
+    imageSrc: "/Kurutulmus_dana_eti.svg",
+  },
+  {
+    name: "Kurutulmuş Baharatlı Dana Eti",
     description: "Biberle zenginleştirilmiş hafif acılı, aromatik lezzet.",
     price: "₺190,00",
-    imageSrc: "/Baharatli_et_cubuklari.jpeg",
+    imageSrc: "/Kurutulmus_baharatli_dana_eti.svg",
   },
   {
-    name: "ETNA SPECIAL TERBİYE",
+    name: "Kurutulmuş Baharatlı Tavuk Eti",
     description:
       "Özel baharat karışımıyla hazırlanan dengeli ve hafif tatlı lezzet.",
     price: "₺210,00",
-    imageSrc: "/Kurutulmus_dana.jpeg",
+    imageSrc: "/Kurutulmus_baharatli_tavuk_eti.svg",
   },
   {
-    name: "ETNA ACI",
+    name: "Baharatlı Tavuk Çubukları",
     description: "Acı severlere özel, yoğun baharatlı, güçlü karakterli tat.",
     price: "₺200,00",
-    imageSrc: "/Et_cubuklari.jpeg",
+    imageSrc: "/Bahratli_tavuk_cubuklari.svg",
+    id: "baharatli-tavuk-cubuklari",
   },
   {
-    name: "ETNA BAHARATLI ET CUBUKLARI",
+    name: "Tavuk Çubukları",
     description: "Acı severlere özel, yoğun baharatlı, güçlü karakterli tat.",
     price: "₺200,00",
-    imageSrc: "/Baharatli_et_cubuklari.jpeg",
+    imageSrc: "/Tavuk_cubuklari.svg",
+    id: "tavuk-cubuklari",
   },
 ];
 
