@@ -17,31 +17,29 @@ export default function AboutSection() {
           </h2>
           <div className="mt-5 space-y-3 text-sm leading-relaxed text-neutral-600 sm:text-base">
             <p>
-              ETNA olarak, kuru et geleneğini modern üretim teknikleriyle
-              buluşturuyoruz. Seçtiğimiz etleri, hijyenik tesislerimizde
-              yavaşça kurutarak yoğun lezzet ve dengeli doku elde ediyoruz.
+            8 çeşit dana  ve tavuk etiyle üretime başlasak da teknoloji uzmanlarımız her gün yeni çeşitler yaratmak için sevgi ve azimle çalışıyor. Ürünlerimizin hiçbiri birbirine benzemiyor, tek ortak noktaları taze ve kaliteli etten üretilmeleri.
             </p>
             <p>
-              Her ürünümüzde; izlenebilir tedarik zinciri, kontrollü üretim
-              adımları ve düzenli kalite testleriyle güvenilirlikten ödün
-              vermiyoruz. Baharat karışımlarımızı, etin dokusunu öne çıkaracak
-              şekilde dikkatle tasarlıyoruz.
+            Ürünlerimiz lezzet ve kalitenin bir senfonisidir. Amacımız, her müşteriye geniş bir ürün yelpazesi, mükemmel hizmet ve benzersiz bir değer sunmaktır! 
             </p>
             <p>
-              Amacımız, atıştırmalık kategorisinde rafine ve dengeli bir kuru
-              et deneyimi sunmak; her pakette aynı standartta lezzet yakalamak.
+            Ürünlerimizin her biri, sağlığınıza özen göstermekten başlayarak en ince zevklerinizi bile tatmin edecek şekilde tasarlanmıştır. 
+            Kalitenin lezzetle buluştuğu doğal ürünlerimizle gerçek bir lezzet dünyasına dalın!
+            </p>
+            <p>
+            Geleneksel üretim anlayışını modern gıda güvenliği uygulamalarıyla destekledik. Üretim alanımız hijyen kurallarına uygun olarak düzenli şekilde temizlenir. Personel, gıda güvenliği ve hijyen kurallarına uygun şekilde çalışır. Çapraz bulaşma riskleri önlenir. Temiz hammadde, kontrollü süreç ve hijyenik üretim anlayışımızla, güvenle tüketilebilecek kurutulmuş et sunuyoruz.
             </p>
           </div>
         </div>
 
         <div className="flex-1">
-          <div className="relative h-64 overflow-hidden rounded-2xl bg-neutral-200 sm:h-72 md:h-full">
+          <div className="relative w-full h-64 overflow-hidden rounded-2xl bg-neutral-200 sm:h-72 md:h-full">
             <Image
-              src="/factory.jpg"
+              src="/factory.png"
               alt="ETNA üretim tesisi"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-cover grayscale"
+              className="object-cover"
             />
           </div>
         </div>
