@@ -2,12 +2,6 @@
 
 import Link from "next/link";
 
-const navLinks = [
-  { href: "#hero", label: "Home" },
-  { href: "#products", label: "Products" },
-  { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
-];
 
 export default function Navbar() {
   return (
@@ -20,18 +14,6 @@ export default function Navbar() {
         >
           ETNAGURME
         </Link>
-        <ul className="flex items-center gap-6 text-sm md:gap-8">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                className="transition-colors hover:text-amber-300"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
       </nav>
     </header>
   );

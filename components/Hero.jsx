@@ -9,19 +9,18 @@ export default function Hero() {
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-4 py-12 md:flex-row md:items-center md:py-16 md:px-6 lg:px-8 lg:py-20">
         <div className="flex-1">
-          <p className="text-xs font-medium uppercase tracking-[0.3em] text-neutral-500">
-            Etnagurme
-          </p>
           <h1
             id="hero-heading"
-            className="mt-4 text-4xl font-semibold tracking-[0.35em] text-neutral-900 sm:text-5xl"
+            className="mt-4 text-3xl font-semibold tracking-[0.35em] text-neutral-900 sm:text-5xl md:text-4xl"
           >
             ETNAGURME
           </h1>
           <p className="mt-6 max-w-xl text-sm leading-relaxed text-neutral-600 sm:text-base">
-            Geleneksel tariflerden ilham alan, özenle seçilmiş etlerin yavaşça
-            kurutulmasıyla hazırlanan ETNAGURME kuru et lezzetleri. Her lokmada
-            dengeli baharat, gerçek doku ve yoğun aroma.
+          Her lokmada başka bir karakter.
+          <br />
+          Her üründe farklı bir lezzet.
+          <br />
+          Her an, her yerde yanında.
           </p>
         </div>
 
