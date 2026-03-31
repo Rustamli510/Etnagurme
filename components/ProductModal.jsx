@@ -76,6 +76,13 @@ export default function ProductModal({ isOpen, onClose, product }) {
         }`}
         onClick={(e) => e.stopPropagation()}
       >
+        <button
+          onClick={handleClose}
+          className="absolute top-4 right-4 z-20 flex h-10 w-10 items-center justify-center rounded-full bg-black/50 text-white sm:hidden"
+          aria-label="Close modal"
+        >
+          ✕
+        </button>
 
         <div className="flex max-h-[90vh] overflow-y-auto flex-col gap-8 p-6 sm:flex-row sm:gap-10 sm:p-8">
           {/* LEFT: Images */}
