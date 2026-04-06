@@ -1,12 +1,5 @@
 import Link from "next/link";
 
-const navLinks = [
-  { href: "#hero", label: "Home" },
-  { href: "#products", label: "Products" },
-  { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
-];
-
 const socials = [
   {
     href: "https://instagram.com",
@@ -53,21 +46,6 @@ export default function Footer() {
             Özenle kurutulmuş, dengeli baharatlı kuru et lezzetleri.
           </p>
         </div>
-
-        <nav aria-label="Footer">
-          <ul className="flex flex-wrap items-center gap-5 text-xs md:justify-end">
-            {navLinks.map((link) => (
-              <li key={link.href}>
-                <a
-                  href={link.href}
-                  className="transition-colors hover:text-amber-300"
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
 
         <div className="flex items-center gap-4">
           {socials.map((social) => (
