@@ -34,7 +34,7 @@ export default function Footer() {
   return (
     <footer
       id="contact"
-      className="bg-neutral-900 py-8 text-neutral-300"
+      className="bg-[#1f2a3a] py-8 text-neutral-300"
       aria-label="Site footer"
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
