@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative w-full h-[300px] sm:h-[250px] md:h-[300px] lg:h-[500px] overflow-hidden"
+      className="relative w-full h-[300px] sm:h-[250px] md:h-[300px] lg:h-[500px] overflow-hidden bg-white"
       aria-labelledby="hero-heading"
     >
       <Image
