@@ -35,7 +35,7 @@ export default function AboutSection() {
         <div className="flex-1">
           <div className="relative w-full h-64 overflow-hidden rounded-2xl bg-neutral-200 sm:h-72 md:h-full">
             <Image
-              src="/factory.png"
+              src="/Factory.png"
               alt="ETNA üretim tesisi"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
