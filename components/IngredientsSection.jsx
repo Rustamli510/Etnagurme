@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function IngredientsSection() {
   return (
     <>
-    <section className="relative w-full bg-neutral-100 h-[100%]">
+    <section className="relative w-full bg-neutral-100 h-full">
       {/* TOP SECTION */}
       <div className="mx-auto max-w-6xl px-4 py-12 md:px-6 lg:px-8">
         <div className="grid items-center gap-8 md:grid-cols-2">

@@ -8,7 +8,7 @@ export default function Hero() {
       aria-labelledby="hero-heading"
     >
       <Image
-        src="/arka plan.svg"
+        src="/ambalaj arka.svg"
         alt="ETNAGURME kuru et ürünleri"
         fill
         className="object-fill w-full h-full"
