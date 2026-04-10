@@ -17,18 +17,36 @@ export default function AboutSection() {
           </h2>
           <div className="mt-5 space-y-3 text-sm leading-relaxed text-neutral-600 sm:text-base">
             <p>
-            8 çeşit dana  ve tavuk etiyle üretime başlasak da teknoloji uzmanlarımız her gün yeni çeşitler yaratmak için sevgi ve azimle çalışıyor. Ürünlerimizin hiçbiri birbirine benzemiyor, tek ortak noktaları taze ve kaliteli etten üretilmeleri.
+            Yolculuğumuza 8 çeşit dana ve tavuk ürünüyle başladık.
+            Bugün ise teknoloji ve üretim ekibimiz, her gün yeni lezzetler geliştirmek için aynı sevgi ve azimle çalışmaya devam ediyor.
+            Ürünlerimizin hiçbiri birbirine benzemez.
+            Her biri kendi karakterine sahiptir.
+            Ortak noktaları ise nettir:
+            özenle seçilmiş, taze ve kaliteli hammaddelerden üretilmeleri.
             </p>
             <p>
-            Ürünlerimiz lezzet ve kalitenin bir senfonisidir. Amacımız, her müşteriye geniş bir ürün yelpazesi, mükemmel hizmet ve benzersiz bir değer sunmaktır! 
+            Kurutulmuş et ürünlerimizde olduğu gibi, meyve ve sebzelerde de aynı yaklaşımı benimsiyoruz.
+            Onları değiştirmiyoruz.
+            Sadece en iyi hallerini koruyoruz.
             </p>
             <p>
-            Ürünlerimizin her biri, sağlığınıza özen göstermekten başlayarak en ince zevklerinizi bile tatmin edecek şekilde tasarlanmıştır. 
-            Kalitenin lezzetle buluştuğu doğal ürünlerimizle gerçek bir lezzet dünyasına dalın!
+            Meyve ve sebzeleri freeze dry (dondurarak kurutma) yöntemiyle işleyerek;
+            renklerini, aromalarını ve doğal yapılarını büyük ölçüde muhafaza ediyoruz.
+            Ortaya çıkan ürünler hafif, çıtır ve yoğun lezzetlidir.
+            Ürünlerimizin her biri, lezzet ve kalitenin dengeli bir birleşimidir.
+            Amacımız; geniş ürün çeşitliliği, güvenilir üretim ve güçlü bir lezzet deneyimi sunmaktır.
+            Geleneksel üretim anlayışını, modern gıda güvenliği standartlarıyla destekliyoruz.
             </p>
             <p>
-            Geleneksel üretim anlayışını modern gıda güvenliği uygulamalarıyla destekledik. Üretim alanımız hijyen kurallarına uygun olarak düzenli şekilde temizlenir. Personel, gıda güvenliği ve hijyen kurallarına uygun şekilde çalışır. Çapraz bulaşma riskleri önlenir. Temiz hammadde, kontrollü süreç ve hijyenik üretim anlayışımızla, güvenle tüketilebilecek kurutulmuş et sunuyoruz.
+            Meyve ve sebzeleri freeze dry (dondurarak kurutma) yöntemiyle işleyerek;
+            renklerini, aromalarını ve doğal yapılarını büyük ölçüde muhafaza ediyoruz.
+            Ortaya çıkan ürünler hafif, çıtır ve yoğun lezzetlidir.
+            Ürünlerimizin her biri, lezzet ve kalitenin dengeli bir birleşimidir.
+            Amacımız; geniş ürün çeşitliliği, güvenilir üretim ve güçlü bir lezzet deneyimi sunmaktır.
+            Geleneksel üretim anlayışını, modern gıda güvenliği standartlarıyla destekliyoruz.
             </p>
+            <p>Kalitenin lezzetle buluştuğu bu dünyada,
+            seni de gerçek ve yoğun bir lezzet deneyimine davet ediyoruz.</p>
           </div>
         </div>
 
