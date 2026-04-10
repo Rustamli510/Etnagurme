@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src='/Arka plan.svg'
+          src='/Arka-plan.svg'
           alt="Variety of beef and chicken jerky, dried fruits and premium meat snacks"
           className="w-full h-full object-cover brightness-50"
         />
