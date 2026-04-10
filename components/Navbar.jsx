@@ -90,7 +90,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <nav className="fixed top-[80px] left-0 right-0 z-50 mx-6 mt-4 pb-4 space-y-4 border border-gray-200 pt-4 bg-white text-center rounded-2xl shadow-xl md:hidden animate-in fade-in slide-in-from-top-4 duration-300">
+          <nav className="fixed top-[120px] left-0 right-0 z-50 mx-6 mt-4 pb-4 space-y-4 border border-gray-200 pt-4 bg-white text-center rounded-2xl shadow-xl md:hidden animate-in fade-in slide-in-from-top-4 duration-300">
             <a
               onClick={() => setIsMobileMenuOpen(false)}
               href="#"
