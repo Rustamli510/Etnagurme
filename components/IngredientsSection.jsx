@@ -41,7 +41,7 @@ export default function IngredientsSection() {
   <div className="relative bg-[#1f2a3a] py-12 text-right">
     <div className="mx-auto max-w-6xl px-4 md:px-6 lg:px-8">
       <h3 className="text-lg font-bold tracking-widest text-white uppercase">
-        Dondurularak Kurutulmuş <br/> Meyvelerin Avantajları 
+        Dondurularak Kurutulmuş <br/> Meyvelerİn Avantajları 
       </h3>
 
       <ul className="mt-6 space-y-3 text-sm leading-relaxed text-neutral-300">
