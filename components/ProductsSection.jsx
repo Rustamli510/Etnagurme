@@ -99,7 +99,7 @@ export default function ProductsSection() {
   return (
     <section
       id="products"
-      className="border-b border-neutral-200 bg-white"
+      className="bg-linear-to-b from-neutral-100 to-[#DCE4F2]"
       aria-labelledby="products-heading"
     >
       <div className="mx-auto max-w-6xl px-4 py-12 md:px-6 lg:px-8 lg:py-16">

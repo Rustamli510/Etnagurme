@@ -78,7 +78,7 @@ export default function ProductModal({ isOpen, onClose, product }) {
       >
         <button
           onClick={handleClose}
-          className="absolute top-4 right-4 z-20 flex h-10 w-10 items-center justify-center rounded-full bg-black/50 text-white sm:hidden"
+          className="absolute top-4 right-4 z-20 flex h-8 w-8 items-center justify-center rounded-full bg-black/30 text-white cursor-pointer"
           aria-label="Close modal"
         >
           ✕
