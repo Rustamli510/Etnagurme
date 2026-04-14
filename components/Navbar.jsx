@@ -48,7 +48,7 @@ export default function Header() {
               className={`font-bold transition-colors duration-300 w-50 -ml-10  ${
                 isScrolled ? "text-blue-900" : "text-white"
               }`}
-              src="logo.svg"
+              src={isScrolled ? "/logo.svg" : "/logo-beyaz.svg"}
             />
 
             {/* Desktop Navigation */}
