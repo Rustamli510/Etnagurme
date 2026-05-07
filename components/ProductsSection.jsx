@@ -4,6 +4,9 @@ import ProductCard from "./ProductCard";
 import ProductModal from "./ProductModal";
 import { useState } from "react";
 
+const fruitDescription =
+  "Mevsiminde toplanan taze meyveden hazırlanmıştır. Dondurularak kurutma sayesinde ürün sadece suyunu kaybeder ve çıtır hale gelir. Yeniden sulandırıldığında orjinal haline döner. Atıştırmalık olarak tek, yulafla, yoğurtla ve b. kullanabilirsiniz. Şeker ve b. ilavesi yapılmamıştır.";
+
 const products = [
   {
     name: "Kurutulmuş Tavuk Eti",
@@ -72,13 +75,163 @@ const products = [
       "Baharat Karışımı",
     ],
   },
+  {
+    name: "Çıtır çilek dilimleri",
+    description: "Dondurularak kurutulmuş çıtır çilek dilimleri",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/strawberry.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Çilek"],
+  },
+  {
+    name: "Çıtır kivi dilimleri",
+    description: "Dondurularak kurutulmuş çıtır kivi dilimleri",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/kivi.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Kivi"],
+  },
+  {
+    name: "Çıtır muz dilimleri",
+    description: "Dondurularak kurutulmuş çıtır muz dilimleri",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/banana.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Muz"],
+  },
+  {
+    name: "Çıtır Kavun dilimleri",
+    description: "Dondurularak kurutulmuş çıtır kavun dilimleri",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/melon.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Kavun"],
+  },
+  {
+    name: "Çıtır Kızılcık dilimleri",
+    description: "Dondurularak kurutulmuş çıtır kızılcık dilimleri",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/cranberry.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Kızılcık"],
+  },
+  {
+    name: "Çıtır incir dilimleri",
+    description: "Dondurularak kurutulmuş çıtır incir dilimleri",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/fig.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["İncir"],
+  },
+  {
+    name: "Çıtır Mango dilimleri",
+    description: "Dondurularak kurutulmuş çıtır mango dilimleri",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/mango.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Mango"],
+  },
+  {
+    name: "Kurutulmuş Çarkıfelek",
+    description: "Dondurularak kurutulmuş çarkıfelek",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/passion.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Çarkıfelek"],
+  },
+  {
+    name: "Çıtır kuru dut",
+    description: "Dondurularak kurutulmuş çıtır kuru dut",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/mulberry.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Dut"],
+  },
+  {
+    name: "Çıtır Yaban mersini",
+    description: "Dondurularak kurutulmuş çıtır yaban mersini",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/blueberry.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Yaban Mersini"],
+  },
+  {
+    name: "Çıtır Vişne",
+    description: "Dondurularak kurutulmuş çıtır vişne",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/cherry.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Vişne"],
+  },
+  {
+    name: "Çıtır Ejder meyvesi",
+    description: "Dondurularak kurutulmuş çıtır ejder meyvesi",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/dragon.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Ejder Meyvesi"],
+  },
+  {
+    name: "Çıtır Ananas dilimleri",
+    description: "Dondurularak kurutulmuş çıtır ananas dilimleri",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/pineapple.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Ananas"],
+  },
+  {
+    name: "Çıtır Şeftali dilimleri",
+    description: "Dondurularak kurutulmuş çıtır şeftali dilimleri",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/honey-peach.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Şeftali"],
+  },
+  {
+    name: "Çıtır Kayısı dilimleri",
+    description: "Dondurularak kurutulmuş çıtır kayısı dilimleri",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/yellow-peach.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Kayısı"],
+  },
+  {
+    name: "Çıtır böğürtlen",
+    description: "Dondurularak kurutulmuş çıtır böğürtlen",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/blackberry.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Böğürtlen"],
+  },
+  {
+    name: "Çıtır Jak Meyvesi",
+    description: "Dondurularak kurutulmuş çıtır jak meyvesi",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/jak.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: ["Jak Meyvesi"],
+  },
+  {
+    name: "Çıtır MIX - Mango, kivi, şeftali, kayısı, ejder meyvesi",
+    description: "Dondurularak kurutulmuş çıtır meyve karışımı",
+    description_modal: fruitDescription,
+    imageSrc: "/ambalaj%20meyve/crisps-mix.svg",
+    subtitle: "Doğal | Şeker İlavesiz | Glutensiz",
+    ingredients: [
+      "Mango",
+      "Kivi",
+      "Şeftali",
+      "Kayısı",
+      "Ejder Meyvesi",
+    ],
+  },
 ].map((p) => {
   // Your modal requires richer product fields than the current card uses.
   return {
     ...p,
     title: p.name,
-    subtitle: "Doğal | Yüksek Protein | Glutensiz",
-    images: [p.imageSrc, p.imageSrc, p.imageSrc],
+    subtitle: p.subtitle || "Doğal | Yüksek Protein | Glutensiz",
+    images: p.imageSrc ? [p.imageSrc, p.imageSrc, p.imageSrc] : [],
     ingredients: p.ingredients
   }
 });

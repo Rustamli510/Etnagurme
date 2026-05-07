@@ -37,14 +37,6 @@ export default function AboutSection() {
             Amacımız; geniş ürün çeşitliliği, güvenilir üretim ve güçlü bir lezzet deneyimi sunmaktır.
             Geleneksel üretim anlayışını, modern gıda güvenliği standartlarıyla destekliyoruz.
             </p>
-            <p>
-            Meyve ve sebzeleri freeze dry (dondurarak kurutma) yöntemiyle işleyerek;
-            renklerini, aromalarını ve doğal yapılarını büyük ölçüde muhafaza ediyoruz.
-            Ortaya çıkan ürünler hafif, çıtır ve yoğun lezzetlidir.
-            Ürünlerimizin her biri, lezzet ve kalitenin dengeli bir birleşimidir.
-            Amacımız; geniş ürün çeşitliliği, güvenilir üretim ve güçlü bir lezzet deneyimi sunmaktır.
-            Geleneksel üretim anlayışını, modern gıda güvenliği standartlarıyla destekliyoruz.
-            </p>
             <p>Kalitenin lezzetle buluştuğu bu dünyada,
             seni de gerçek ve yoğun bir lezzet deneyimine davet ediyoruz.</p>
           </div>
